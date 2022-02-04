@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator budżetu domowego</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css">
+    <script src="https://kit.fontawesome.com/2e4f3b3392.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainbox">
+        <i class="fas fa-home"></i>
+        <div class="displaybox" id="displaybox">Bilans wynosi 0</div>
+        <div class="parentbox">
+            <div class="incomebox">
+                <form id="incomeform" class="form">
+                    <label for="incometext" class="labels">PRZYCHODY</label><br>
+                    <input type="text" id="incometext" class="textstyle" name="incometext" placeholder="Nazwa przychodu" value="">
+                    <input type="number" id="incomeamount" class="amountstyle" placeholder="Kwota" value="">
+                    <button type="submit" class="btnstyle">Dodaj</button>
+                </form>
+                <ul class="liststyle" id="incomelist">
+                    
+                </ul>
+                <div class="lowestbox">
+                    <div>Suma przychodów:</div><div class="boldtext" id="totalincomedisplay">0</div><div class="boldtext pln">zł</div>
+                </div>
+            </div>
+            <div class="expensebox">
+                <form id="expenseform" class="form">
+                    <label for="expensetext" class="labels">WYDATKI</label><br>
+                    <input type="text" id="expensetext" class="textstyle" name="expensetext" placeholder="Nazwa wydatku">
+                    <input type="number" id="expenseamount" class="amountstyle" placeholder="Kwota">
+                    <button type="submit" class="btnstyle">Dodaj</button>
+                </form>
+                <ul class="liststyle" id="expenselist">
+                    
+                </ul>
+                <div class="lowestbox">
+                    <div>Suma wydatków:</div><div class="boldtext" id="totalexpensedisplay">0</div><div class="boldtext pln">zł</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>

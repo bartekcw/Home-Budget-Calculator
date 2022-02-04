@@ -1,0 +1,151 @@
+.mainbox {
+    display: flex;
+    height: 700px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: #a1ff8c;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 46px;
+}
+
+.fas {
+    margin-top: 10px;
+}
+
+.displaybox {
+    background-color: #a3d9ff;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.parentbox {
+    height: 500px;
+    width: 604px;
+    display: flex;
+}
+
+.incomebox {
+    height: 100%;
+    width: 50%;
+    background-color: #9effd8;
+    border-style: solid;
+    border-width: 0px 4px 0px 0px;
+    border-color: blue;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.expensebox {
+    height: 100%;
+    width: 50%;
+    background-color: #9effd8;
+    position: relative;
+}
+
+.labels {
+    font-size: 18px;
+}
+
+.form {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.textstyle {
+    width: 140px;
+}
+
+.amountstyle {
+    width: 60px;
+}
+
+.inputbutton {
+    margin-left: 10px;
+}
+
+.lowestbox {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+}
+
+.boldtext {
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.pln {
+    margin-left: 0px;
+}
+
+.liststyle {
+    font-size: 14px;
+    line-height: 30px;
+    position: absolute;
+    top: 55px;
+    left: 25px;
+}
+
+.btnstyle {
+    border: 2px solid #9933ff;
+    background-color: #ffffcc;
+}
+
+.deletebtn {
+    position: absolute;
+    left: 156px;
+    font-size: 12px;
+    line-height: 20px;
+    border: 2px solid #9933ff;
+    background-color: #ffffcc;
+}
+
+.editbtn {
+    position: absolute;
+    left: 206px;
+    font-size: 12px;
+    line-height: 20px;
+    border: 2px solid #9933ff;
+    background-color: #ffffcc;
+}
+
+.deletebtn2 {
+    position: absolute;
+    left: 148px;
+    font-size: 12px;
+    line-height: 20px;
+    border: 2px solid #9933ff;
+    background-color: #ffffcc;
+}
+
+.editbtn2 {
+    position: absolute;
+    left: 198px;
+    font-size: 12px;
+    line-height: 20px;
+    border: 2px solid #9933ff;
+    background-color: #ffffcc;
+}
+
+.editformstyle {
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
